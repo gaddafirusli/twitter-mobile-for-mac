@@ -1,0 +1,15 @@
+{
+  "name": "Twitter",
+  "version": "0.1.0",
+  "main": "./main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager ./ Twitter --out ./build/ --overwrite --icon=./app/img/appicon.icns"
+  },
+  "devDependencies": {
+    "electron": "^1.4.14",
+    "electron-packager": "^8.4.0"
+  },
+  "dependencies": {
+  }
+}

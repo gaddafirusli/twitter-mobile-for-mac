@@ -1,0 +1,59 @@
+#twitter {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#loading {
+  opacity: 0;
+  display: none;
+}
+
+#loading.isLoading {
+  background-color: #f1f2f3;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 99;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#loading.isLoading img {
+  animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+  0%   { transform: rotate(0deg) }
+  100% { transform: rotate(360deg) }
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+  right: 10px;
+  position: absolute;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #666;
+  border-radius:5px;
+}
+
+header{
+  -webkit-app-region: drag !important;
+  -webkit-user-select: none;
+  cursor: default;
+}
+
+header ._1eb66saq{
+  text-align: center !important;
+  font-weight: 500 !important;
+  color: #666 !important;
+}
