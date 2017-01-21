@@ -2,7 +2,7 @@
 
 Unofficial Twitter client for Mac based on the new Twitter Mobile.
 
-[![Screenshot](screenshot.jpg)]
+![Screenshot](screenshot.jpg)
 
 ## How to build
 
